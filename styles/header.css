@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1100;
+    transition: all 0.3s ease;
+    margin-left: 250px;
+    background: var(--header-bg);
+    color: var(--header-text);
+
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    color: aliceblue;
+    justify-content: space-between;
+
+}
+
+
+.side-bar-extent-btn {
+
+    font-size: 30px;
+}
+
+.toggle-sidebar .sidebar {
+
+    left: -270px;
+
+}
+
+.toggle-sidebar .main-content {
+
+    margin-left: 60px;
+    transition: all 0.3s ease;
+
+}
+
+.toggle-sidebar .header {
+
+    left: -180px;
+
+}
+
+.toggle-sidebar .sidebar {
+    left: -180px;
+}
+
+
+
+
+/* Profile Box Display */
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    transition: 0.2s;
+}
+
+.profile-box:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+/* Avatar small */
+.profile-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* Arrow */
+.profile-icon {
+    font-size: 12px;
+    color: white;
+}
+
+/* Name */
+.profile-name {
+    color: white;
+    font-weight: 500;
+}
+
+
+/* Dropdown Menu */
+.profile-menu {
+    width: 220px !important;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.12);
+    border: none;
+}
+
+/* Big Profile Picture */
+.profile-img-lg {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+/* Logout Button (Red Highlight) */
+.logout-btn {
+    color: #dc3545 !important;
+    font-weight: 600;
+}
+
+.dropdown-header {
+    padding: 15px 10px !important;
+}
+
+
+/* -------------------------------- Color Palate --------------------------------*/
+
+.color-palet {
+    position: fixed;
+    top: 50%;
+    right: -22px;
+    transform: translateY(-50%);
+    background: #343a40;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 8px 0 0 8px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.color-palet-panel {
+    position: fixed;
+    top: 50%;
+    right: -220px;
+    transform: translateY(-50%);
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    width: 237px;
+    z-index: 1099;
+    transition: all 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.color-palet-panel.open {
+    right: 3px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.palette-section {
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.color-options {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.color-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    transition: transform 0.2s;
+}
+
+.color-circle:hover {
+    transform: scale(1.1);
+}
+
+
+/* -------------------------------- Color Palate --------------------------------*/

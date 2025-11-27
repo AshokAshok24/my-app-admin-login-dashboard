@@ -1,0 +1,83 @@
+:root {
+
+  /* Sidebar */
+  --sidebar-bg: #1e1e2d;
+  --sidebar-hover-bg: #2a2a40;
+  --sidebar-text: #fff;
+  --submenu-bg: #2a2a40;
+  --submenu-hover-bg: #33334d;
+  --submenu-text: #ddd;
+  --submenu-hover-text: #fff;
+
+  /* Header */
+  --header-bg: #1e1e2d;
+  --header-text: #000;
+
+  /* Color palette panel */
+  --palette-bg: #fff;
+  --palette-shadow: rgba(0, 0, 0, 0.3);
+
+  /* Palette items */
+  --palette-item-border: #ddd;
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----- ADMIN TEMPLATE TAB DESIGN ----- */
+
+
+.nav-tabs {
+  border-bottom: none !important;
+  background: linear-gradient(90deg, #4e73df, #1cc88a);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.nav-tabs .nav-link {
+  color: white !important;
+  margin-right: 5px;
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 8px 16px;
+  transition: 0.3s;
+  border: none !important;
+}
+
+.nav-tabs .nav-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.nav-tabs .nav-link.active {
+  background: white !important;
+  color: #4e73df !important;
+  font-weight: 700;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ----- CARD DESIGN ----- */
+
+.card {
+  border: none !important;
+  border-radius: 15px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #4e73df;
+}
+
+.card-text {
+  font-size: 15px;
+  color: #555;
+}

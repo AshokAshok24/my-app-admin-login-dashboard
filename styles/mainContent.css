@@ -1,0 +1,16 @@
+.main-content {
+
+    margin-left: 240px;
+    margin-top: 60px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    z-index: 99999;
+
+}
+
+
+.model {
+
+    margin-top: 60px;
+    z-index: 9999 !important;
+}
